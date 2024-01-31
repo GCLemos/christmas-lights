@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Lights</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="colored-balls__container">
+        <li class="colored-balls"></li>
+        <li class="colored-balls"></li>
+        <li class="colored-balls"></li>
+        <li class="colored-balls"></li>
+        <li class="colored-balls"></li>
+        <li class="colored-balls"></li>
+        <li class="colored-balls"></li>
+    </ul>
+
+    <div class="actions__container">
+        <h1 id="title">Christmas Lights</h1>
+        <div class="actions-buttons__container">
+            <button id="on">On</button>
+            <button id="off">Off</button>
+    
+            <label for="">Speed:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5" placeholder="From 1 to 5 only." value="">
+            <input type="submit" id="submit" name="" value="GO" onclick="alterSpeed()">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
